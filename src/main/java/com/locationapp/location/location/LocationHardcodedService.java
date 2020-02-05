@@ -12,9 +12,9 @@ public class LocationHardcodedService {
     private static long idCounter = 0;
 
     static {
-        locations.add(new Location(++idCounter, "in28minutes", "Learn to Dance", new Date()));
-        locations.add(new Location(++idCounter, "in28minutes", "Learn about", new Date()));
-        locations.add(new Location(++idCounter, "in28minutes", "Learn about Angular", new Date()));
+        locations.add(new Location(++idCounter, "test", "title1", "location1", new Date(), "image1"));
+        locations.add(new Location(++idCounter, "test", "title2", "location2", new Date(), "image2"));
+        locations.add(new Location(++idCounter, "test", "title3", "location3", new Date(), "image3"));
     }
 
     public List<Location> findAll() {
